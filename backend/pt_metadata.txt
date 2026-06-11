@@ -1,0 +1,15 @@
+Analyzing models\best.pt...
+Total files in zip: 365
+Pickle files found: ['best/data.pkl']
+
+Attempting to unpickle best/data.pkl...
+Unpickled successfully! Type of root object: <class 'dict'>
+Root dictionary keys: ['date', 'version', 'license', 'docs', 'epoch', 'best_fitness', 'model', 'ema', 'updates', 'optimizer', 'scaler', 'train_args', 'train_metrics', 'train_results', 'git']
+  date: 2026-04-12T03:33:37.939140
+  version: 8.4.37
+  Key 'model' is object of class UltralyticsStub with attributes: ['training', '_parameters', '_buffers', '_non_persistent_buffers_set', '_backward_pre_hooks', '_backward_hooks', '_is_full_backward_hook', '_forward_hooks', '_forward_hooks_with_kwargs', '_forward_hooks_always_called', '_forward_pre_hooks', '_forward_pre_hooks_with_kwargs', '_state_dict_hooks', '_state_dict_pre_hooks', '_load_state_dict_pre_hooks', '_load_state_dict_post_hooks', '_modules', 'yaml', 'save', 'names', 'inplace', 'stride', 'nc', 'args', 'criterion']
+    FOUND NAMES in model.__dict__: {0: 'person', 1: 'bicycle', 2: 'motorcycle', 3: 'car', 4: 'van', 5: 'bus', 6: 'truck', 7: 'tricycle', 8: 'building', 9: 'aircraft', 10: 'ship', 11: 'soccer-ball-field', 12: 'basketball-court', 13: 'football-field', 14: 'tennis-court', 15: 'baseball-diamond', 16: 'swimming-pool', 17: 'roundabout', 18: 'bridge', 19: 'storage-tank', 20: 'harbor'}
+  Key 'train_args' is dict with keys: ['task', 'mode', 'model', 'data', 'epochs', 'time', 'patience', 'batch', 'imgsz', 'save', 'save_period', 'cache', 'device', 'workers', 'project', 'name', 'exist_ok', 'pretrained', 'optimizer', 'verbose', 'seed', 'deterministic', 'single_cls', 'rect', 'cos_lr', 'close_mosaic', 'resume', 'amp', 'fraction', 'profile', 'freeze', 'multi_scale', 'compile', 'overlap_mask', 'mask_ratio', 'dropout', 'val', 'split', 'save_json', 'conf', 'iou', 'max_det', 'half', 'dnn', 'plots', 'end2end', 'source', 'vid_stride', 'stream_buffer', 'visualize', 'augment', 'agnostic_nms', 'classes', 'retina_masks', 'embed', 'show', 'save_frames', 'save_txt', 'save_conf', 'save_crop', 'show_labels', 'show_conf', 'show_boxes', 'line_width', 'format', 'keras', 'optimize', 'int8', 'dynamic', 'simplify', 'opset', 'workspace', 'nms', 'lr0', 'lrf', 'momentum', 'weight_decay', 'warmup_epochs', 'warmup_momentum', 'warmup_bias_lr', 'box', 'cls', 'cls_pw', 'dfl', 'pose', 'kobj', 'rle', 'angle', 'nbs', 'hsv_h', 'hsv_s', 'hsv_v', 'degrees', 'translate', 'scale', 'shear', 'perspective', 'flipud', 'fliplr', 'bgr', 'mosaic', 'mixup', 'cutmix', 'copy_paste', 'copy_paste_mode', 'auto_augment', 'erasing', 'cfg', 'tracker']
+  Key 'train_metrics' is dict with keys: ['metrics/precision(B)', 'metrics/recall(B)', 'metrics/mAP50(B)', 'metrics/mAP50-95(B)', 'val/box_loss', 'val/cls_loss', 'val/dfl_loss', 'fitness']
+  Key 'train_results' is dict with keys: ['epoch', 'time', 'train/box_loss', 'train/cls_loss', 'train/dfl_loss', 'metrics/precision(B)', 'metrics/recall(B)', 'metrics/mAP50(B)', 'metrics/mAP50-95(B)', 'val/box_loss', 'val/cls_loss', 'val/dfl_loss', 'lr/pg0', 'lr/pg1', 'lr/pg2']
+  Key 'git' is dict with keys: ['root', 'branch', 'commit', 'origin']
